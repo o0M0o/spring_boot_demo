@@ -11,7 +11,7 @@ import org.assertj.core.api.Assertions.*
 
 @RunWith(SpringRunner::class)
 @SpringBootTest(webEnvironment= SpringBootTest.WebEnvironment.RANDOM_PORT)
-class UserVehicleControllerTests {
+class HelloTests {
     @Autowired
     private lateinit var restTemplate: TestRestTemplate
 
